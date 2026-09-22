@@ -1,0 +1,41 @@
+{
+  "name": "revora",
+  "version": "1.0.0",
+  "description": "development of revora",
+  "keywords": [
+    "revora",
+    "saas"
+  ],
+  "homepage": "https://github.com/Vaibhav0-07/revora-backendv1#readme",
+  "bugs": {
+    "url": "https://github.com/Vaibhav0-07/revora-backendv1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaibhav0-07/revora-backendv1.git"
+  },
+  "license": "ISC",
+  "author": "Vaibhav Pandey",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@prisma/adapter-neon": "^7.10.0",
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.2",
+    "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "nodemon": "^3.1.14",
+    "pg": "^8.23.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "prisma": "^7.10.0"
+  }
+}
